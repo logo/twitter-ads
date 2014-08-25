@@ -1,21 +1,2 @@
-
-/**
- * Twitter Ads logo.
- */
-
-.logo[data-logo="Twitter Ads"] {
-  width: 3.230175284244721em;
-}
-
-.logo[data-logo="Twitter Ads"] > * {
-  background-image: url(images/logo.svg);
-  margin: .05em 0 -.04em 0;
-}
-
-.logo[data-logo="Twitter Ads"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Twitter Ads"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
